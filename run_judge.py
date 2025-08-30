@@ -128,12 +128,7 @@ async def main() -> None:
     if players_value:
         players: List[str] = [p.strip() for p in players_value.split(",") if p.strip()]
     else:
-        players_list = yaml_config.get("players") or [
-            "gpt-5-mini",
-            "gpt-5-nano",
-            "gpt-4.1",
-            "gpt-4-mini",
-        ]
+        players_list = yaml_config.get("players")
         players = [str(p).strip() for p in players_list if str(p).strip()]
 
     client = AsyncOpenAI(api_key=api_key)
