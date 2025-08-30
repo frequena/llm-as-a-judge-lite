@@ -4,6 +4,10 @@ A simple and lightweight LLM-as-a-judge benchmark. Asynchronous, multi-model, an
 
 For illustration, this repository includes a benchmark based on Julius Caesar.
 
+<div align="center">
+  <img src="plot_2025-08-30_11-53-30.png" alt="Score Composition by Model" width="600"/>
+</div>
+
 ## Setup
 - Python >= 3.9 and `uv` installed, If you don't have `uv`, you can install it with `pip install uv`
 
@@ -29,6 +33,5 @@ uv sync
 uv run python run_judge.py
 ```
 
-## Example Output
 
-<img src="plot_2025-08-30_11-53-30.png" alt="Score Composition by Model" width="400"/>
+
