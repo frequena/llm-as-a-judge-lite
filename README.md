@@ -31,4 +31,4 @@ uv run python run_judge.py
 
 ## Example Output
 
-![Score Composition by Model](plot_2025-08-30_11-53-30.png)
+<img src="plot_2025-08-30_11-53-30.png" alt="Score Composition by Model" width="400"/>
