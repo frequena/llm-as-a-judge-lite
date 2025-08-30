@@ -1,0 +1,5 @@
+run.csv
+results_*.csv
+.env
+.venv
+uv.lock

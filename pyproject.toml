@@ -1,0 +1,19 @@
+[project]
+name = "llm-as-judge"
+version = "0.1.0"
+description = "Succinct LLM-as-a-judge benchmark"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "pydantic>=2.7",
+  "openai>=1.40",
+  "numpy>=1.22",
+  "pandas>=2.0",
+  "matplotlib>=3.5",
+  "python-dotenv>=1.0",
+  "PyYAML>=6.0",
+  
+]
+
+[project.scripts]
+judge-benchmark = "judge_benchmark:main"
